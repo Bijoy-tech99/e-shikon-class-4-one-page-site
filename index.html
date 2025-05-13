@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/android-chrome-512x512.png">
+<link rel="manifest" href="./images//favicon.webmanifest">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<title>Quick project</title>
+</head>
+<body>
+    <header>
+       <div id="logo">
+        <img src="./images/favicon3.png.png" alt="logo">
+        </div>
+        <nav>
+            <ul id="menuLinks">
+                <li ><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+            <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>It's Time To Amplify Your</h1>
+            <div id="one">
+                <h1>Online Business</h1>
+            </div>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing </h3>
+        
+
+           <img src="images/illastrutor pic.jpg.jpg" alt="illastrutor" width="570" height="594">
+        </section>
+
+        <!-- hero section -->
+        
+            <div id="herosection" class="herosection">
+                <div class="left">
+                    <h2>3k</h2><br><br.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aspernatur voluptatibus consequuntur maiores fugit debitis assumenda laudantium consequatur cupiditate veritatis.</p>
+
+                </div>
+                <div class="right">
+                    <h1>Successfully completed project and idea</h1>
+
+                </div>
+
+            </div>
+            
+        
+
+    
+    </main>
+
+
+    <script>
+          let menuLinks = document.getElementById("menuLinks")
+          let menuIcon = document.getElementById("menuIcon")
+
+
+          menuLinks.style.maxHeight = "0px"
+
+           menuIcon.addEventListener("click",() =>{
+            if( menuLinks.style.maxHeight === "0px")
+           {
+            menuLinks.style.maxHeight = "350px"
+
+             }
+            else{
+              menuLinks.style.maxHeight = "0px"
+
+               }
+              })
+
+
+        </script>
+</body>
+</html>
